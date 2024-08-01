@@ -30,7 +30,10 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/FiraSans-Regular.tts", "./assets/fonts/FiraSans-SemiBold.tts"]
+          "fonts": [
+            "./assets/fonts/FiraSans-Regular.tts", 
+            "./assets/fonts/FiraSans-SemiBold.tts"
+          ]
         }
       ]
     ],

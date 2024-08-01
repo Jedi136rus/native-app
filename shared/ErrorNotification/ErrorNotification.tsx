@@ -51,6 +51,7 @@ const styles = StyleSheet.create({
     },
     errorText: {
         fontSize: Fonts.f16,
+        fontFamily: Fonts.bold,
         color: 'white',
         textAlign: 'center'
     }

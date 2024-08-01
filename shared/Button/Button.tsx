@@ -48,6 +48,6 @@ const styles = StyleSheet.create({
     text: {
         color: Colors.yellow,
         fontSize: Fonts.f18,
-        fontFamily: 'FiraSansBold'
+        fontFamily: Fonts.regular
     }
 })

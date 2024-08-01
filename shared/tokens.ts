@@ -7,7 +7,9 @@ export const Colors = {
 }
 
 export const Gaps = {
+    g8: 8,
     g16: 16,
+    g20: 20,
     g50: 50
 }
 
@@ -18,5 +20,7 @@ export const Radius = {
 export const Fonts = {
     f16: 10,
     f18: 18,
-    f20: 20
+    f20: 20,
+    regular: 'FiraSans-Regular',
+    bold: 'FiraSans-SemiBold',
 }
