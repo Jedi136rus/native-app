@@ -3,10 +3,10 @@
     "name": "native-app",
     "slug": "native-app",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "backgroundColor": "#ccbe21",
+    "extra": {"eas": {"projectId": "dsaga-afdafsdf-sadfasd-afggds"}},
     "splash": {
       "image": "./assets/splash.gif",
 
@@ -35,6 +35,13 @@
             "./assets/fonts/FiraSans-SemiBold.tts"
           ]
         }
+      ],
+      [
+        "expo-notifications",
+          {
+            "icon": "./assets/favicon.png",
+            "color": "#ffffff"
+          }
       ]
     ],
     "scheme": "native-app"

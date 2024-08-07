@@ -4,11 +4,11 @@ import { useState } from "react";
 import EyeClosed from "../../assets/icons/eye-closed";
 import EyeOpened from "../../assets/icons/eye-opened";
 
-export function Input({isPassword, ...props}: TextInputProps & { isPassword?: boolean}) {
+export function Input({isPassword, style, ...props}: TextInputProps & { isPassword?: boolean}) {
     const [isPasswordVisible, setIsPasswordVisible] = useState<boolean>(false);
     
     return (
-        <View>
+        <View style={style}>
             <TextInput 
                 style={styles.input}
                 secureTextEntry={isPassword && !isPasswordVisible}
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     eyeIcon: {
         position: 'absolute',
         right: 0,
-        paddingHorizontal: 15,
-        // paddingVertical: 10 
+        paddingHorizontal: 10,
+        paddingVertical: 10 
     }
 })

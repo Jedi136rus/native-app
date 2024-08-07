@@ -7,7 +7,7 @@ import { useAtom, useSetAtom } from "jotai";
 import { logoutAtom } from "../../../auth/model/auth.state";
 import { loadProfileAtom } from "../../../user/model/user.state";
 import { useEffect } from "react";
-import { UserMenu } from "../../../user/ui/UserMenu/UserMenu";
+import { UserMenu } from "../../../../widgets/user/ui/UserMenu/UserMenu";
 import { MenuItem } from "../MenuItem/MenuItem";
 
 const MENU = [
